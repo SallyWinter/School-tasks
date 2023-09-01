@@ -1,8 +1,16 @@
 * {
   margin: 0;
   padding: 0;
+  font-size:larger;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-p, input, button, h1 {
+p, input, button {
   margin: 5px;
+
+}
+
+h1 {
+  margin-top: 100px;
+  margin-bottom: 50px;
 }

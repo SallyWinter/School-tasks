@@ -7,7 +7,8 @@
     <link href="/static/style.css" rel="stylesheet">
   </head>
   <body>
-    <h1 id="placeholder">Ingen pengu</h1>
+    <center>
+    <h1 id="placeholder">Write your measurements in the boxes and the pengiun will apear here</h1>
     <p>Culmen Length (mm)</p>
     <input type="text" name="Culmen Length" value="0" onkeyup="get_pengu();">
     <p>Culmen Depth (mm)</p>
@@ -17,8 +18,7 @@
     <p>Body Mass (g)</p>
     <input type="text" name="Body Mass" value="0" onkeyup="get_pengu();">
       <br>
-    <button type="button" onclick="get_pengu();">Indsend</button>
-
+    </center>
     <script>
       const get_pengu = () => {
         var data = {"data": [
